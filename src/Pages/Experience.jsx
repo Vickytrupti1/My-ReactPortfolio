@@ -5,15 +5,16 @@ import { IoMdSchool } from "react-icons/io";
 import { FaSchool } from "react-icons/fa";
 import { FaUserGraduate } from "react-icons/fa";
 import { IoBookSharp } from "react-icons/io5";
+import '../styles/Experience.css'
 
 function Experience() {
   return (
     <div className='experience'>
-      <VerticalTimeline lineColor='#00b0b5'>
-        <VerticalTimelineElement className='vertical-timeline-elment--eduction' 
+      <VerticalTimeline lineColor='#00b0b5' className=''>
+        <VerticalTimelineElement className='vertical-timeline-elment--eduction ' 
             date='2011-2014' iconStyle={{background:"#00b0b5",color:"white"}}
              icon={<FaSchool/>}>
-              <h3 className='vertical-timeline-element-title'>Bhatimunda High School,Tangi,Cuttack,Odisha</h3>
+              <h3 className='vertical-timeline-element-title '>Bhatimunda High School,Tangi,Cuttack,Odisha</h3>
               <p>High School</p>
         </VerticalTimelineElement>
 
