@@ -46,3 +46,22 @@
     background-color: whitesmoke;
     box-shadow: 0 0 10px #00b0b5;
   }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .project img{width: 100%;}
+    .project{ width: auto; padding: 20px;}
+    
+  }
+  @media only screen and (max-width: 540px) {
+    p{font-size: 30px;
+       width: fit-content;
+      }
+      .project p{
+        font-size: 25px;
+      }
+      .project h1{
+        font-size: 22px;
+      }
+  }

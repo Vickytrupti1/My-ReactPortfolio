@@ -36,7 +36,7 @@
     transition: 0.5s ease-in;
   }
   .projectItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 15px rgba(10, 207, 191, 0.5);
     transform: scale(1.1);
     cursor: pointer;
   }
@@ -68,20 +68,20 @@
       grid-template-columns: 1fr 1fr;
     }
   }
+  @media only screen and (max-width: 991px) {
+    .projectList{
+      display: contents;
+    }
+  }
   
   @media only screen and (max-width: 800px) {
     .projectList {
       grid-template-columns: 1fr;
-    }
-  }
-  
-  @media only screen and (max-width: 800px) {
-    .projectList {
       width: 100%;
     }
-    .projectItem {
-      width: 300px;
-      height: 300px;
-    }
-  }
   
+  .projectItem {
+    width: 300px;
+    height: 300px;
+  }
+  }

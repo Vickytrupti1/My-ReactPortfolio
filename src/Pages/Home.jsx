@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import img from '../images/IMG_4661 (1).jpg'
+// import img from '../images/IMG_4661 (1).jpg'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
@@ -31,11 +31,11 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2>Front-End</h2>
-            <span>React js,HTML,Css,Bootstrap,Tailwind,NPM,Yarn,MaterialUI</span>
+            <span>React js, HTML, Css, Bootstrap, Tailwind, NPM, Yarn, MaterialUI</span>
           </li>
           <li className='item'>
             <h2>Back-End</h2>
-            <span>NodeJS,ExpessJS,MangoDB,Basic knowledge of MySQL</span>
+            <span>NodeJS, ExpessJS, MangoDB,Basic knowledge of MySQL</span>
           </li>
           <li className='item'>
             <h2>Language</h2>
